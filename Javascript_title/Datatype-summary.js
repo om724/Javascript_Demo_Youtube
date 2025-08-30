@@ -2,32 +2,50 @@
         // 7 Datatype : String ,Number,Boolean ,Null ,Undefined,Symbol ,BigInt 
 
 //Reference Type Thats Also called non-premitive
-        //:Array , Object , And Functions
 
-const score=100
-const scoreValue=100.3
-const isLoggedIn=false;
-const outside=null;
+//:Array , Object , And Functions
 
-const id=Symbol('212');
-const anatherid=Symbol('212')
+      const name="om"
+      const num=12
+      const IsLogging=true;
+      const st=null
+      const num1=undefined
+      let a=Symbol('123');
+      let b=Symbol('123');
+    //   console.log(a==b);
+      const heros=['om','pushkar','patil','Rajesh'];
 
-console.log(anatherid==id)
+      let na ={
+        name:'om',
+        age:12
+      }
+      let k=function(){
+        console.log("hello world");
+      }
+    //   console.log(heros);
+    //   console.log(na);
+    //   console.log(k);
+    //   console.log(typeof heros);
+    //   console.log(typeof na)
+    //   console.log(typeof k);
 
-const bigNumber=345677885378n
-console.log(bigNumber)
+      /***************Memory****************** */
+      //Stack(Primitive) and Heap(Non-Primitive)
 
-const heros =["shaktiman","ohm","yash"]
-let myobj={
-    name: "patil",
-    age :12,
+      let myname="om"
 
-}
-let a=function(){
-    console.log("hello");
-}
-let num=""
-console.log(heros)
-console.log(typeof myobj)
-console.log(typeof a)
-console.log(typeof num)
+      let anathername=myname;
+      anathername="patil";
+    //   console.log(myname);
+    //   console.log(anathername);
+      let userOne={
+        email :"om@google.com",
+        upi: "user@ybl"
+
+      }
+
+      let userTwo=userOne;
+      userTwo.email="chetan@gmail.com";
+
+    //   console.log(userOne.email);
+    //   console.log(userTwo.email);
