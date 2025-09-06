@@ -1,36 +1,19 @@
 const user ={
-    username:"om",
-    price:300,
-    welcomeMessage:function(){
-        console.log(`${this.username},welcome to website`);
-       console.log(this);
-
+    username :"Hitesh",
+    price:999,
+    welcomeMessage : function(){
+        console.log(`${this.username}welcome to website `);
     }
-
 }
-// user.welcomeMessage()
-// // user.username="sam";
-// // user.welcomeMessage()
-// console.log(this)
+// user.welcomeMessage();
 
-// function chai(){
-//     let username="ohm";
-//     console.log(this.username)
+// function chai() {
+//     let username="om"
+//     console.log(this.username);
 // }
 // chai()
 
-const chai=function(){
-    let username="ohm";
-    console.log(this.username)
-}
-// chai()
+const addtwo = (num1,num2)=>
+     (num1+num2);
 
-// const addTwo =(num1,num2)=>{
-//     return num1+num2
-// }
-
-//  const addTwo =(num1,num2)=> num1+num2
- const addTwo =(num1,num2)=>(num1+num2)
-
-
-console.log(addTwo(3,4))
+console.log(addtwo(9,4))
