@@ -30,3 +30,15 @@
 //     }
 //     console.log(a);
 // }
+
+// let i=0;
+// while(i<=10){
+//     console.log(i);
+//     i++;
+// 
+
+let num=0;
+do{
+    console.log(num);
+    num++;
+}while(num<=20);
